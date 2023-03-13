@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Favorite Movie</title>
+  </head>
+  <body>
+    <h1>My Favorite Movie</h1>
+    <p>My favorite movie is <a href="https://www.imdb.com/title/tt0368891/">National Treasure</a> because it features <a href="https://www.imdb.com/name/nm0000115/?ref_=tt_ov_st">Nic Cage</a>. I think he is a funny
+    actor and I enjoy the plot of the movie because it is an <strong>action</strong> film. It is about a group of people trying to steal the
+    Declaration of Independence.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/en/8/80/Book_of_secrets_post.jpg" alt="National Treasure movie poster">
+  </body>
+</html>
