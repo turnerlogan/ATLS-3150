@@ -1,0 +1,28 @@
+h1, h2 {
+  color: green;
+}
+
+p {
+  color: black;
+}
+
+ul {
+  border: 5px solid orange;
+}
+
+ol {
+  border: 1px solid green;
+}
+
+ol, ul {
+  padding: 5px 30px;
+  border-radius: 4px;
+}
+
+strong {
+  color: orange;
+}
+
+em {
+  color: orange;
+}
