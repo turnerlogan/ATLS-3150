@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div #formcol1 {
+	float:left;
+	width: 100%;
+}
+
+#multchoice {
+  padding: 1em 0em 0em 0em;
+  text-align: left;
+  display: inline-block;
+}
+
+label {
+  margin-right: .3em;
+  width: 6em;
+  display: inline-block;
+}
+
+#formcol1 label {
+  text-align: right;
+}
+
+#formcol1 li {
+  list-style:none;
+}
+
+#formcol1 input.reqfield {
+  color: red;
+  background: #FF9;
+}
+
+select:focus, select:active, iput:focus, input:active, input:focus + label, input:active + label, label[for]:focus, label[for]:active {
+  color: #FFF !important;
+  background-color: #BB3D2F !important;
+}
+
+
+/* end of form css */
