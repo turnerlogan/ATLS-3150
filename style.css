@@ -1,28 +1,40 @@
-h1, h2 {
-  color: green;
+.container {
+	width = 75vw;
+}
+
+.header {
+  padding: 40px;
+  text-align: center;
+  background-color: rgba(211, 211, 211, 0.603);
+
+}
+
+.hours {
+  padding: 10px;
+}
+
+nav {
+  text-align: center;
+}
+
+.nav-item {
+  padding: 0px 120px 0px 100px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 30px;
+  color: #d4412d;
 }
 
 p {
-  color: black;
-}
-
-ul {
-  border: 5px solid orange;
-}
-
-ol {
-  border: 1px solid green;
-}
-
-ol, ul {
-  padding: 5px 30px;
-  border-radius: 4px;
-}
-
-strong {
-  color: orange;
-}
-
-em {
-  color: orange;
+  font-size: 20px;
+  padding: 0px;
 }
