@@ -2,12 +2,6 @@
 	width = 75vw;
 }
 
-h1 {
-  font-size: 40px;
-  padding: 30px;
-  color: #d4412d;
-}
-
 .header {
   padding: 40px;
   text-align: center;
@@ -31,7 +25,13 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  width: 50%;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 30px;
+  color: #d4412d;
 }
 
 p {
