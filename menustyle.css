@@ -51,17 +51,22 @@ p {
   font-size: 17px;
 }
 
-main {
-  display: flex;
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
 }
 
-article {
-  flex: 4;
-  background-color: rgba(0,255,0,);
+.left {
+  width: 75%;
 }
 
-aside {
-  flex: 1;
-  margin-left: 10px;
-  padding: 1%;
+.right {
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
