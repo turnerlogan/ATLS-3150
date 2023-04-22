@@ -51,17 +51,11 @@ p {
   font-size: 17px;
 }
 
-main {
-  display: flex;
+.flex-left {
+    width: 75%;
+    height: 100vh;
 }
 
-article,section {
-  flex: 4;
-  background-color: rgba(0,255,0,);
-}
-
-aside {
-  flex: 1;
-  margin-left: 10px;
-  padding: 1%;
+.flex-right {
+    width: 25%;
 }
