@@ -50,7 +50,7 @@ img {
 }
 
 .h4article {
-  font-size: 15px;
+  font-size: 10px;
   color: #3d3838;
 }
 
@@ -63,12 +63,12 @@ main {
 }
 
 article {
-  width: 75%;
+  flex: 2;
   background-color: rgba(0,255,0,);
 }
 
 aside {
-  width: 25%;
+  flex: 2;
   margin-left: 10px;
   padding: 1%;
 }
